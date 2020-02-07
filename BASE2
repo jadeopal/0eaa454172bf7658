@@ -1,0 +1,5 @@
+#Ensure there no DNS leaks and your WAN address is clean/gapped
+curl -S https://install.zerotier.com 
+#Verify certificate match with clean browser
+curl -S https://install.zerotier.com | bash
+#Connect to appropriate ring and confirm connectivity with your regions manager
